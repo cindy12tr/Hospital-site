@@ -1,0 +1,119 @@
+@media screen and (max-width: 1300px){
+    header .navigation .nav-items{
+        display: none;
+    }
+    header .navigation .nav-btns-con{
+        justify-content: flex-end;
+        display: flex
+    }
+}
+@media screen and (max-width: 1380px){
+    .section-video .video-content{
+        padding: 8rem 8rem;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .section-video .video-content{
+        padding: 6rem 1.5rem !important;
+    }
+    .section-about{
+        margin-top: 3rem;
+    }
+    footer .bottom-nav .b-nav-contact .nav-item{
+        margin-top: 0;
+    }
+    
+}
+
+@media screen and (max-width: 905px){
+    .section-video .video-content{
+        padding: 8rem 4rem;
+    }
+}
+@media screen and (max-width: 1130px){
+    .section-video .video-content{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 415px){
+    header .header-content{
+        padding-top: 2rem;
+    }
+}
+@media screen and (max-width: 1080px){
+    header .header-content .left-h-content h1{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 840px){
+    header .header-content{
+        grid-template-columns: repeat(1, 1fr);
+        padding-top: 4rem;
+    }
+    header .header-content .right-h-content .h-img-2 {
+        width: 100%;
+        height: 300px;
+        left: 0;
+        
+    }
+    header .header-content .right-h-content .h-img-3{
+        display: none;
+    }
+    .section-about{
+        grid-template-columns: repeat(1, 1fr);
+        padding-top: 12rem!important;
+    }
+    .section-about .left-about{
+        padding: 0 3.5rem;
+    }
+
+    .mouse{
+        display: none;
+    }
+
+    .section-about .right-about{
+        justify-content: flex-start;
+        .about-img {
+            width: 100%;
+        }
+    }
+
+    .title-con{
+        width: 80%;
+    }
+
+    .section-recommendations{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 800px){
+    footer .bottom-nav{
+        gap: 2rem;
+    }
+    footer .bottom-nav .b-nav-logo p {
+        max-width: 200px;
+    }
+    footer .bottom-nav .ig {
+        padding-left: 0;
+        
+    }
+    footer .bottom-nav {
+        justify-content: center;
+    }
+    
+}
+@media screen and (max-width: 700px){
+    header .header-content .right-h-content .h-img-2 {
+        width: 100%;
+        height: 250px;
+        left: 0;
+        
+    }
+    footer .bottom-nav .b-nav-logo p {
+        max-width: 300px;
+    }
+    footer .bottom-nav .b-nav-company{
+        margin-left: -1rem;
+    }
+}
