@@ -491,6 +491,15 @@ footer{
             p{
                 max-width: 300px;
             }
+            .logo{
+                display: flex;
+                align-items: center;
+                font-size: 1.25rem;
+                font-family: 'Dancing Script', cursive;
+                
+                text-align: center;
+                
+            }
             .b-nav-icons{
                 display: flex;
                 gap: 1rem;
